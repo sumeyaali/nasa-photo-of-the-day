@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import NasaCards from "./NasaCards";
 import axios from "axios";
+import { Container} from "reactstrap";
 
 
 
@@ -20,14 +21,14 @@ useEffect(() =>{
 
 },[])
 return (
-    <div classname="container">
+    <Container className="container"> 
         <NasaCards picture={picture}
         date={picture.date}
         explanation={picture.explanation}
         img={picture.hdurl}
         title={picture.title}/>
 
-    </div>
+    </Container>
 )
 
 }

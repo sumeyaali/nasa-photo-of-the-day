@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1>
-        Photo of the Day!
+        Nasa Photo of The Day!
       </h1>
 
       <NasaGrid/>
